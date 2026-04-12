@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    DayCast Adaptive Icon
+    Destination (BOTH files):
+      app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+      app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+
+    Both the square and round launcher icons use the same adaptive definition.
+    Copy this file to both destinations.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+    <!-- Monochrome layer for themed icons (Android 13+) -->
+    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>

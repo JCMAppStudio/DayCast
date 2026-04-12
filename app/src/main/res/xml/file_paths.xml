@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    FileProvider path configuration for DayCast backup exports.
+    Destination: app/src/main/res/xml/file_paths.xml
+
+    This tells FileProvider that files in the app's cache/backup/ folder
+    can be shared externally via a content:// URI (required for ACTION_SEND).
+-->
+<paths>
+    <cache-path name="backup" path="backup/" />
+</paths>

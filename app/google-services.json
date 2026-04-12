@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "494066219423",
+    "project_id": "daycast-1e75d",
+    "storage_bucket": "daycast-1e75d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494066219423:android:7d99acb4be3297a03025aa",
+        "android_client_info": {
+          "package_name": "com.example.daycast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494066219423-44sp3jep69t7iql1sdbvvfu9slsb5h39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daycast",
+            "certificate_hash": "a020c5dd9035e934068479185c83dab32e7a490b"
+          }
+        },
+        {
+          "client_id": "494066219423-fsr0kk1btfts64q77jrup405462n0ktt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_kLdH4ZhbICPrZyR-KCi5D6LJa5HVZbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494066219423-fsr0kk1btfts64q77jrup405462n0ktt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

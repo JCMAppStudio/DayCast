@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Parent MUST be Theme.Material3.* (not android:Theme.Material.*)
+        so that PdfViewerFragment can resolve Material Components attributes
+        when inflating its internal XML layouts.
+        DayNight handles both light and dark mode automatically.
+    -->
+    <style name="Theme.DayCast" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <!--
+        Splash screen theme.
+        Applied to MainActivity in AndroidManifest.xml.
+        postSplashScreenTheme hands off to Theme.DayCast once the
+        splash finishes — Compose takes over from there.
+
+        Requires: implementation("androidx.core:core-splashscreen:1.0.1")
+    -->
+    <!--
+        Splash screen theme using Android 12+ native attributes (no extra library needed).
+        minSdk = 31, so these window attributes are always available.
+        The system reads these before the app fully launches and renders the splash automatically.
+    -->
+    <style name="Theme.DayCast.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Full-bleed indigo background -->
+        <item name="android:windowSplashScreenBackground">#3949AB</item>
+        <!-- Sunrise icon centered on the splash -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <!-- Circle behind the icon matches the background -->
+        <item name="android:windowSplashScreenIconBackgroundColor">#3949AB</item>
+    </style>
+</resources>

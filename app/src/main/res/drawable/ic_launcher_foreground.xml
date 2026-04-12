@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    DayCast App Icon - Foreground Layer
+    Destination: app/src/main/res/drawable/ic_launcher_foreground.xml
+
+    Design: A sunrise above a horizon line.
+    "DayCast" = casting light over your day.
+    White paths on a transparent background; the adaptive icon
+    background layer provides the indigo/violet color.
+
+    Canvas is 108x108dp (adaptive icon safe zone = inner 72x72dp, centered).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Horizon line -->
+    <path
+        android:pathData="M 22,66 L 86,66"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Sun body (circle centered at 54,52) -->
+    <path
+        android:pathData="M 54,52 m -13,0 a 13,13 0 1,1 26,0 a 13,13 0 1,1 -26,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Ray: top -->
+    <path
+        android:pathData="M 54,33 L 54,27"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Ray: top-right -->
+    <path
+        android:pathData="M 66.2,38.8 L 70.5,34.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Ray: right -->
+    <path
+        android:pathData="M 73,52 L 79,52"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Ray: top-left -->
+    <path
+        android:pathData="M 41.8,38.8 L 37.5,34.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Ray: left -->
+    <path
+        android:pathData="M 35,52 L 29,52"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Small accent dots below horizon (ground reflection / cast shadow) -->
+    <path
+        android:pathData="M 36,74 m -2,0 a 2,2 0 1,1 4,0 a 2,2 0 1,1 -4,0"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.45" />
+    <path
+        android:pathData="M 54,76 m -2,0 a 2,2 0 1,1 4,0 a 2,2 0 1,1 -4,0"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.45" />
+    <path
+        android:pathData="M 72,74 m -2,0 a 2,2 0 1,1 4,0 a 2,2 0 1,1 -4,0"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.45" />
+
+</vector>
