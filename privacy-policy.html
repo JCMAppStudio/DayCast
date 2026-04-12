@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DayCast - Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #1e293b;
+            background: #f8fafc;
+            padding: 0 16px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 0 60px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 32px;
+            border-bottom: 2px solid #3b82f6;
+        }
+        .header h1 {
+            font-size: 32px;
+            color: #1e293b;
+            margin-bottom: 4px;
+        }
+        .header .app-name {
+            font-size: 24px;
+            color: #3b82f6;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .header .date {
+            color: #64748b;
+            font-style: italic;
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 22px;
+            color: #1e293b;
+            margin-top: 36px;
+            margin-bottom: 12px;
+        }
+        h3 {
+            font-size: 18px;
+            color: #334155;
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+        p {
+            margin-bottom: 16px;
+            color: #334155;
+        }
+        strong {
+            color: #1e293b;
+        }
+        a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact {
+            margin-top: 32px;
+            padding: 20px;
+            background: #eff6ff;
+            border-radius: 8px;
+            border-left: 4px solid #3b82f6;
+        }
+        .contact p {
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <div class="app-name">DayCast</div>
+            <div class="date">Effective Date: April 12, 2026</div>
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p>Welcome to DayCast. This Privacy Policy explains how JCM App Studio ("we," "us," or "our") collects, uses, stores, and protects your information when you use the DayCast mobile application ("the App"). We are committed to protecting your privacy and being transparent about our data practices.</p>
+        <p>By using the App, you agree to the collection and use of information as described in this policy. If you do not agree with this policy, please do not use the App.</p>
+
+        <h2>2. Information We Collect</h2>
+
+        <h3>2.1 Information You Provide</h3>
+        <p>The App allows you to create and store personal productivity content, including notes and checklists, daily planner tasks and events, journal entries (including mood tracking), and tags and organizational folders. All of this content is created by you and stored locally on your device by default.</p>
+
+        <h3>2.2 Account Information</h3>
+        <p>If you choose to create an account or sign in (via email/password or Google Sign-In), we collect your email address and display name for authentication purposes. Account creation is optional and is only required if you wish to enable cloud sync.</p>
+
+        <h3>2.3 Calendar Data</h3>
+        <p>With your explicit permission, the App can read and write to your device calendar to display and manage events within the Planner. This data is accessed only when you grant calendar permissions and is used solely within the App to provide scheduling functionality.</p>
+
+        <h3>2.4 Biometric Data</h3>
+        <p>If you enable the App Lock feature with biometric authentication, the App uses your device's built-in biometric system (fingerprint or face recognition) to verify your identity. We do not collect, store, or transmit any biometric data. All biometric processing is handled entirely by your device's operating system.</p>
+
+        <h3>2.5 AI-Generated Content</h3>
+        <p>If you use the journal reflection feature, the text of your journal entry is sent to Google's Gemini AI API to generate a personalized reflection. This is the only circumstance in which your content leaves your device (aside from optional cloud sync). Google's use of this data is governed by Google's own privacy policy.</p>
+
+        <h2>3. How We Store Your Data</h2>
+
+        <h3>3.1 Local Storage</h3>
+        <p>By default, all your content (notes, tasks, events, and journal entries) is stored locally on your device using an encrypted SQLite database. This data does not leave your device unless you explicitly enable cloud sync or use the AI reflection feature.</p>
+
+        <h3>3.2 Cloud Sync (Optional)</h3>
+        <p>If you sign in and enable cloud sync, your data is stored in Google Firebase Firestore, a secure cloud database. Cloud sync is entirely opt-in. You can use the App fully without ever creating an account or syncing data. Synced data includes notes, tasks, events, journal entries, and associated metadata such as tags, mood, and timestamps.</p>
+
+        <h3>3.3 App Lock Credentials</h3>
+        <p>If you set up a PIN or password for App Lock, your credentials are stored locally on your device as a one-way SHA-256 hash. We never store your PIN or password in plain text, and this data never leaves your device.</p>
+
+        <h3>3.4 Backup and Export</h3>
+        <p>The App provides a manual backup and export feature that saves your data as a JSON file to a location you choose on your device. You have full control over where this file is stored and shared.</p>
+
+        <h2>4. Third-Party Services</h2>
+        <p>The App integrates with the following third-party services:</p>
+        <p><strong>Firebase Authentication:</strong> Used for account sign-in (email/password and Google Sign-In). Processes your email address and authentication tokens.</p>
+        <p><strong>Firebase Firestore:</strong> Used for optional cloud sync of your app data. Data is stored on Google's servers when sync is enabled.</p>
+        <p><strong>Google Gemini AI API:</strong> Used to generate AI reflections for journal entries. Journal entry text is sent to Google's servers for processing when you request a reflection.</p>
+        <p>Each of these services is governed by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. We encourage you to review their policies.</p>
+
+        <h2>5. What We Do NOT Collect</h2>
+        <p>We want to be clear about what we do not do. The App does not collect analytics or usage tracking data, does not display advertisements, does not use crash reporting or diagnostic tools, does not sell or share your personal data with third parties, does not track your location, and does not collect device identifiers for profiling purposes.</p>
+
+        <h2>6. Data Security</h2>
+        <p>We take reasonable measures to protect your data, including local database encryption on your device, SHA-256 hashing for App Lock credentials, optional biometric authentication for app access, and secure HTTPS connections for all cloud communications. While no method of electronic storage is 100% secure, we strive to use commercially acceptable means to protect your personal information.</p>
+
+        <h2>7. Your Rights and Controls</h2>
+        <p>You have full control over your data within the App. You can delete any note, task, event, or journal entry at any time. Deleted items are moved to Trash and can be permanently removed. You can export all your data using the backup feature. You can disable cloud sync at any time. You can delete your account, which removes all cloud-stored data. You can revoke calendar permissions through your device settings. You can enable or disable biometric authentication and App Lock at any time.</p>
+
+        <h2>8. Children's Privacy</h2>
+        <p>The App is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at the email address below so we can take appropriate action.</p>
+
+        <h2>9. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be reflected by updating the "Effective Date" at the top of this document. We encourage you to review this policy periodically. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>10. Contact Us</h2>
+        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact us at:</p>
+        <div class="contact">
+            <p><strong>JCM App Studio</strong></p>
+            <p><strong>Email:</strong> <a href="mailto:jcmappstudio@gmail.com">jcmappstudio@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
